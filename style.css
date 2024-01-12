@@ -1,0 +1,58 @@
+body{
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#background-layer{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 800px;
+    height: 800px;
+    border-radius: 20px;
+}
+
+header{
+    text-align: center;
+    color: greenyellow;
+}
+
+img{
+    width: 300px;
+    margin-top: 2%;
+}
+
+nav{
+    text-align: center;
+    vertical-align: baseline;
+    background-color: greenyellow;
+    height: 30px;
+}
+
+main{
+    color: white;
+    text-indent: 5%;
+    margin-top: 2%;
+}
+section{
+    height: 100px;
+}
+.barra{
+    margin-left: 5%;
+    height: 20px;
+    border-radius: 10px;
+}
+.barra.orange{
+    background-color: orange;
+    width: 300px;
+}
+.barra.green{
+    background-color: green;
+    width: 600px;
+}
+.barra.red{
+    background-color: red;
+    width: 150px;
+}
